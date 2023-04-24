@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #3b3939;
+    --terceary-color: rgb(0, 0, 255);
+    --quatiaty-color: #242d34;
+    
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
